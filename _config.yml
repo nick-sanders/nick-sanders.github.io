@@ -1,3 +1,3 @@
 theme: jekyll-theme-slate
 title: Nicholas Sanders
-description: <img src="timelogo.jpg" width="30px" height="40px"> <span>Greying Graduate Student</span>
+description: <img src="timelogo.jpg" style="width:30px height:40px float: bottom;"> <span>Greying Graduate Student</span>
