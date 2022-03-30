@@ -28,12 +28,13 @@ layout: default
   <body>
     
     <!-- ATTEMPT TO SCALE SITE ON PHONES -->
-    <meta name="viewport" content="width=1280, initial-scale=1">
+    <meta name="viewport" content="width=1280, initial-scale=1"> <!--This doesn't automatically scale, but it allows user to zoom out on phone to see site as intended-->
+    <!--ONLY NEED TOP LINE? COMMENTING OUT THE JS SCRIPT BELOW UNTIL I UNDERSTAND MORE
     var siteWidth = 1280;
     var scale = screen.width /siteWidth;
 
     document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
-    
+    -->
     
     
     <!--THIS FIGURE CRACKS ME UP, BUT DOESN'T WORK WELL WITH SLATE THEME
